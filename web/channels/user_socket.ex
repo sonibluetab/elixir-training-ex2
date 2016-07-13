@@ -2,7 +2,7 @@ defmodule Countdown.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "arenas:lobby", Countdown.ArenaChannel
+  channel "arenas:lobby", Countdown.ArenaChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket

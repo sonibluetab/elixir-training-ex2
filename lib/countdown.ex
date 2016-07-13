@@ -10,7 +10,7 @@ defmodule Countdown do
       # Start the endpoint when the application starts
       supervisor(Countdown.Endpoint, []),
       # And here is our counter!
-      # supervisor(Countdown.Counter, []),
+      supervisor(Countdown.Counter, []),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
